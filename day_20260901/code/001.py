@@ -90,3 +90,8 @@ test_list_6 = [ i for i in range(10) ]
 # 带有分支的列表推导式
 test_list_7 = [ i**2 for i in range(10) if i % 2 == 0 ]
 print(test_list_7)
+
+# 9. 列表的延申操作
+# 列表的类型转换 
+test_str = 'hello world'
+print(list(test_str))
