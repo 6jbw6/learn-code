@@ -28,3 +28,6 @@ class TestStringUpper(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+# 一次性【测试所有测试方法】
+# python -m unittest discover testss
